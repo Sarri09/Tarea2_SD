@@ -5,6 +5,7 @@
 docker build -t kafka_producer_inscription .
 ```
 ## Run
+
     - Para inscribir a un nuevo usuario ejecutar  con 
 
 ```console
