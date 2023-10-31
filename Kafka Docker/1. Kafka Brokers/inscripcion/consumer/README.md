@@ -3,7 +3,7 @@
 ## Build
 
 ```console
-docker build -t kafka_producer_inscription .
+docker build -t kafka_consumer_inscription .
 ```
 
 ## Run
@@ -11,7 +11,7 @@ docker build -t kafka_producer_inscription .
 - Para inscribir a un nuevo usuario ejecutar con 
 
 ```console
-docker run -it --network 1kafkabrokers_default kafka_producer_inscription
+docker run -it --network 1kafkabrokers_default kafka_consumer_inscription
 ```
 ## Verificar ip del broker
 ```console
