@@ -10,4 +10,3 @@ puesto = input("Nombre del puesto: ")
 # Envia los datos al tema "inscripciones"
 producer.produce('inscripciones', key=None, value=f'Nombre: {nombre}, Puesto: {puesto}')
 producer.flush()
-
