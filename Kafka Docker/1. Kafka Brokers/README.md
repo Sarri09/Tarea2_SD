@@ -19,11 +19,11 @@ kafka-topics.sh --create --bootstrap-server kafka1:9092 --topic inscripciones --
 ```
 - kafka2: Topico de Stock
 ```
-kafka-topics.sh --create --bootstrap-server kafka2:9092 --topic stock --partitions 3 --replication-factor 3
+kafka-topics.sh --create --bootstrap-server kafka2:9093 --topic stock --partitions 3 --replication-factor 3
 ```
 - Kafka3: Topico de Contabilidad
 ```
-kafka-topics.sh --create --bootstrap-server kafka3:9092 --topic contabilidad --partitions 3 --replication-factor 3
+kafka-topics.sh --create --bootstrap-server kafka3:9094 --topic contabilidad --partitions 3 --replication-factor 3
 ```
 ### List Topics
 
