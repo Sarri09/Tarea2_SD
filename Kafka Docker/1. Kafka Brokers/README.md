@@ -14,9 +14,9 @@
 ### Cambiar kafkaX por el numero del broker que se desea utilizar.
 
 - kafka1: Topico de Inscripciones.
-  ```
+```
     kafka-topics.sh --create --bootstrap-server kafka1:9092 --topic inscripciones --partitions 3 --replication-factor 3
-  ```
+```
 - kafka2: Topico de Stock
 ```
     kafka-topics.sh --create --bootstrap-server kafka2:9092 --topic stock --partitions 3 --replication-factor 3
