@@ -1,1 +1,5 @@
-# Tarea 2 Sistemas Distribuidos: Apache Kafka
+# Modulo de pruebas para lanzar brokers en modo clouster
+
+ ```
+    docker compose up -d
+ ```
