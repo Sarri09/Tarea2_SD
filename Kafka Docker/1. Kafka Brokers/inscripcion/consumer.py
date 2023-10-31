@@ -25,4 +25,3 @@ while True:
     # Procesa los datos y envía una confirmación (implementa tu lógica aquí)
 
 consumer.close()
-
