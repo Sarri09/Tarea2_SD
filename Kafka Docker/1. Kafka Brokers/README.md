@@ -8,7 +8,7 @@
 ## Modulo de pruebas para crear topicos
 ```
     docker exec -it kafkaX /bin/sh
-    kafka-topics.sh --create --bootstrap-server kafkaX:9092 --topic inscripciones --partitions 3 --replication-factor 3
+    kafka-topics.sh --create --bootstrap-server kafkaX:9092 --topic nombre_del_topico --partitions 3 --replication-factor 3
 
 ```
 ### Cambiar kafkaX por el numero del broker que se desea utilizar.
