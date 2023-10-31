@@ -25,5 +25,18 @@ kafka-topics.sh --create --bootstrap-server kafka2:9092 --topic stock --partitio
 ```
 kafka-topics.sh --create --bootstrap-server kafka3:9092 --topic contabilidad --partitions 3 --replication-factor 3
 ```
+### List Topics
+
+```
+kafka-topics.sh --list --bootstrap-server localhost:9092
+```
+
+### Describe Topic
+
+```
+kafka-topics.sh --describe --bootstrap-server localhost:9092 --topic mytopic
+```
 # Creditos 
-  - https://hub.docker.com/r/bitnami/kafka 
+  - https://hub.docker.com/r/bitnami/kafka
+
+
