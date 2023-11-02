@@ -17,7 +17,7 @@ def delivery_report(err, msg):
         print('Mensaje enviado a {} [{}]'.format(msg.topic(), msg.partition()))
 
 while True:
-    ingredient = input('Ingresa un ingrediente o "salir" para finalizar: ')
+    ingredient = input('Ingresa un ingrediente o "exit" para finalizar: ')
     
     if ingredient.lower() == 'salir':
         break
