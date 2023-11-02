@@ -10,11 +10,11 @@ producer = Producer(config)
 
 topic = 'stock'
 
-def delivery_report(err, msg):
-    if err is not None:
-        print('Error al enviar el mensaje: {}'.format(err))
-    else:
-        print('Mensaje enviado a {} [{}]'.format(msg.topic(), msg.partition()))
+# def delivery_report(err, msg):
+#     if err is not None:
+#         print('Error al enviar el mensaje: {}'.format(err))
+#     else:
+#         print('Mensaje enviado a {} [{}]'.format(msg.topic(), msg.partition()))
 
 while True:
     ingredient = input('Ingrediente a reponer o "exit" para salir: ')
