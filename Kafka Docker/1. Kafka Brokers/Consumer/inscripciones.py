@@ -3,7 +3,7 @@ import csv
 import os
 
 conf = {
-    'bootstrap.servers': '172.18.0.3:9092',  # LA DIRECCION DEL BROKER PUEDE CAMBIAR OJO!!! 
+    'bootstrap.servers': 'kafka1:9092', 
     'group.id': 'proceso-de-aprobacion',
     'auto.offset.reset': 'earliest'
 }

@@ -1,7 +1,8 @@
 from confluent_kafka import Consumer, KafkaError
 
+# Configuración del consumidor de Kafka
 config = {
-    'bootstrap.servers': '172.18.0.5:9092',  
+    'bootstrap.servers': 'kafka2:9092',  
     'group.id': 'distribuidores',
     'auto.offset.reset': 'earliest'
 }

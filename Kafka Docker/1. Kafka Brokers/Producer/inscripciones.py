@@ -1,7 +1,6 @@
 from confluent_kafka import Producer
 
-broker = '172.18.0.3:9092' # verificar, la ip no siempre abre aqui
-producer = Producer({'bootstrap.servers': broker})
+producer = Producer({'bootstrap.servers': 'kafka1:9092'})
 topic = 'inscripciones'
 
 nombre = input("Nombre: ")
