@@ -3,7 +3,7 @@ from confluent_kafka import Producer
 
 config = {
     'bootstrap.servers': '172.18.0.5:9092',  
-    'client.id': 'ingredient-producer'
+    'client.id': 'ingredient-producer' ## AQUI CAMBIAAAR!!!
 }
 
 producer = Producer(config)
